@@ -59,7 +59,7 @@ let f = { categoria:'todas', marca:'todas', status:'todos', busca:'', ordem:'rec
 let lb = { open:false, imgs:[], i:0 };
 
 /* ============ UTILIDADES ============ */
-const price = p => 'R$ ' + Number(p).toLocaleString('pt-BR');
+const price = p => Number(p) > 0 ? 'R$ ' + Number(p).toLocaleString('pt-BR') : 'Consulte-nos';
 const km = k => Number(k).toLocaleString('pt-BR') + ' km';
 const statusColor = s => s === 'disponível' ? 'bg-green-600' : s === 'reservado' ? 'bg-yellow-500' : 'bg-red-600';
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -91,6 +91,9 @@ async function load() {
     if (!r.ok) throw new Error('veiculos.json não encontrado');
     vehicles = await r.json();
     if (!Array.isArray(vehicles)) throw new Error('veiculos.json inválido');
+    const MOTO_MARCAS = ['Yamaha','Suzuki','Kawasaki','Harley-Davidson','Triumph','Royal Enfield','Shineray','Haojue','Dafra'];
+    const MOTO_NOMES = /\b(CG|Biz|XTZ|Factor|Titan|Fazer|Twister|Bros|Pop|PCX|NXR|CB|Lander|Ninja)\b/i;
+    vehicles.forEach(v => { if (!v.categoria) v.categoria = (MOTO_MARCAS.includes(v.marca) || MOTO_NOMES.test(v.nome)) ? 'moto' : 'carro'; });
   } catch (e) {
     console.error('Usando dados de exemplo:', e);
     vehicles = DADOS_EXEMPLO;
