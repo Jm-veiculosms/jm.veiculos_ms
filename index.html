@@ -79,7 +79,7 @@
     const WHATSAPP_NUMBER = '556799495572';
     const WHATSAPP_NAME = 'BRENO';
     
-    const MARCAS = ["Chevrolet", "Volkswagen", "Peugeot", "Toyota", "Fiat", "Renault", "Ford", "Honda", "Hyundai", "Jeep", "Nissan", "Citroen"];
+    const MARCAS = ["Chevrolet", "Volkswagen", "Peugeot", "Toyota", "Fiat", "Renault", "Ford", "Honda", "Hyundai", "Jeep", "Nissan", "Citroen", "Yamaha"];
     
     // ==================== ESTADO ====================
     let vehicles = [];
@@ -121,23 +121,52 @@
     function nextImage() { if (lightboxCurrentIndex < lightboxImages.length - 1) { lightboxCurrentIndex++; render(); } }
     function prevImage() { if (lightboxCurrentIndex > 0) { lightboxCurrentIndex--; render(); } }
     
-    // Carregar dados do arquivo JSON
+    // ==================== CARREGAR DADOS ====================
+    // ✅ CAMINHO CORRIGIDO: veiculos.json na MESMA pasta do index.html
     async function carregarVeiculos() {
         try {
             isLoading = true;
             render();
-            const response = await fetch('./dados/veiculos.json');
-            if (response.ok) {
-                vehicles = await response.json();
-                console.log('✅ Veículos carregados:', vehicles.length);
-            } else {
-                throw new Error('Arquivo não encontrado');
+            
+            const response = await fetch('./veiculos.json');
+            
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status} - não foi possível carregar veiculos.json`);
             }
+            
+            const text = await response.text();
+            
+            // Tenta parsear e dá erro claro se o JSON estiver malformado
+            try {
+                vehicles = JSON.parse(text);
+            } catch (parseError) {
+                console.error('❌ JSON inválido:', parseError);
+                throw new Error('veiculos.json está malformado. Valide em https://jsonlint.com');
+            }
+            
+            if (!Array.isArray(vehicles)) {
+                throw new Error('veiculos.json precisa ser um array [ ... ]');
+            }
+            
+            console.log('✅ Veículos carregados:', vehicles.length);
+            
         } catch (error) {
-            console.error('Erro:', error);
-            vehicles = [
-                { id: 1, nome: "Gol", marca: "Volkswagen", ano: 2014, preco: 35000, km: 120000, combustivel: "Flex", cambio: "Manual", cor: "Prata", status: "disponível", imagens: ["https://i.imgur.com/hcz1hxh.jpg"], descricao: "Gol 1.6 completo" }
-            ];
+            console.error('❌ Erro ao carregar veículos:', error);
+            
+            // ✅ ALERTA VISÍVEL em vez de silenciar o erro
+            setTimeout(() => {
+                alert(
+                    '⚠️ Não foi possível carregar veiculos.json\n\n' +
+                    'Motivo: ' + error.message + '\n\n' +
+                    'Verifique:\n' +
+                    '1) O arquivo veiculos.json está na MESMA pasta do index.html?\n' +
+                    '2) Você está abrindo via servidor local (http://) e NÃO via file://?\n' +
+                    '   → Use Live Server do VS Code ou "python -m http.server"\n' +
+                    '3) O JSON é válido? (https://jsonlint.com)'
+                );
+            }, 300);
+            
+            vehicles = [];
         } finally {
             isLoading = false;
             render();
@@ -271,7 +300,8 @@
                 <h1 class="text-3xl font-bold mb-6 text-white">Catálogo de Veículos</h1>
                 <div class="mb-4"><label class="block font-semibold mb-2 text-gray-300">Filtrar por Marca:</label><div class="flex flex-wrap gap-2 mt-2">${MARCAS.map(m => `<button onclick="window.selectMarca('${m}')" class="brand-btn px-3 py-1 rounded ${selectedMarca === m ? 'bg-blue-600 text-white' : 'bg-gray-700 text-gray-400'}">${m}</button>`).join('')}<button onclick="window.selectMarca('todas')" class="brand-btn px-3 py-1 rounded ${selectedMarca === 'todas' ? 'bg-blue-600 text-white' : 'bg-gray-700 text-gray-400'}">Todas</button></div></div>
                 <div class="mb-4"><label class="block font-semibold mb-2 text-gray-300">Filtrar por Status:</label><div class="flex flex-wrap gap-2 mt-2"><button onclick="window.updateFilter('todos')" class="filter-btn px-3 py-1 rounded ${filterStatus === 'todos' ? 'filter-btn-active' : 'bg-gray-700 text-gray-400'}">Todos</button><button onclick="window.updateFilter('disponível')" class="filter-btn px-3 py-1 rounded ${filterStatus === 'disponível' ? 'filter-btn-active' : 'bg-gray-700 text-gray-400'}">Disponíveis</button><button onclick="window.updateFilter('reservado')" class="filter-btn px-3 py-1 rounded ${filterStatus === 'reservado' ? 'filter-btn-active' : 'bg-gray-700 text-gray-400'}">Reservados</button><button onclick="window.updateFilter('vendido')" class="filter-btn px-3 py-1 rounded ${filterStatus === 'vendido' ? 'filter-btn-active' : 'bg-gray-700 text-gray-400'}">Vendidos</button></div></div>
-                <div class="grid md:grid-cols-3 gap-6">${filtered.map(v => `<div class="vehicle-card"><img src="${v.imagens[0]}" class="vehicle-image" onclick="window.openLightbox(${JSON.stringify(v.imagens).replace(/"/g, '&quot;')}, 0)"><div class="p-4"><div class="flex justify-between"><h2 class="text-xl font-bold text-white">${v.nome}</h2><span class="px-2 py-1 rounded text-xs text-white ${getStatusColor(v.status)}">${v.status}</span></div><p class="text-gray-400">${v.marca} • ${v.ano} • ${v.km.toLocaleString()} km</p><p class="text-blue-400 text-2xl font-bold">${formatPrice(v.preco)}</p><button onclick="window.viewDetail(${v.id})" class="w-full mt-2 bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Ver Detalhes</button></div></div>`).join('')}</div></div>`;
+                ${filtered.length === 0 ? '<p class="text-gray-400 text-center py-10">Nenhum veículo encontrado com esses filtros.</p>' : ''}
+                <div class="grid md:grid-cols-3 gap-6">${filtered.map(v => `<div class="vehicle-card"><img src="${v.imagens[0]}" class="vehicle-image" onclick="window.openLightbox(${JSON.stringify(v.imagens).replace(/"/g, '&quot;')}, 0)" onerror="this.src='https://placehold.co/500x300?text=Sem+Imagem'"><div class="p-4"><div class="flex justify-between"><h2 class="text-xl font-bold text-white">${v.nome}</h2><span class="px-2 py-1 rounded text-xs text-white ${getStatusColor(v.status)}">${v.status}</span></div><p class="text-gray-400">${v.marca} • ${v.ano} • ${v.km.toLocaleString()} km</p><p class="text-blue-400 text-2xl font-bold">${formatPrice(v.preco)}</p><button onclick="window.viewDetail(${v.id})" class="w-full mt-2 bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Ver Detalhes</button></div></div>`).join('')}</div></div>`;
         }
         else if (currentPage === 'detail' && selectedVehicle) {
             html += `<div class="container mx-auto px-4 py-8"><button onclick="window.changePage('vehicles')" class="text-blue-400 hover:text-blue-300 mb-4 inline-block">← Voltar</button><div class="bg-gray-800 rounded-lg shadow-lg p-6"><img src="${selectedVehicle.imagens[currentImageIndex]}" class="gallery-image w-full rounded-lg" onclick="window.openLightbox(${JSON.stringify(selectedVehicle.imagens).replace(/"/g, '&quot;')}, ${currentImageIndex})"><div class="flex gap-2 mt-4 overflow-x-auto">${selectedVehicle.imagens.map((img, i) => `<img src="${img}" class="thumbnail ${currentImageIndex === i ? 'active' : ''}" onclick="window.setImageIndex(${i})">`).join('')}</div><h1 class="text-3xl font-bold mt-4 text-white">${selectedVehicle.nome}</h1><p class="text-blue-400 text-4xl font-bold mt-2">${formatPrice(selectedVehicle.preco)}</p><div class="grid md:grid-cols-2 gap-4 mt-6"><div><p class="text-gray-300"><strong class="text-white">Marca:</strong> ${selectedVehicle.marca}</p><p class="text-gray-300"><strong class="text-white">Ano:</strong> ${selectedVehicle.ano}</p><p class="text-gray-300"><strong class="text-white">KM:</strong> ${selectedVehicle.km.toLocaleString()} km</p></div><div><p class="text-gray-300"><strong class="text-white">Descrição:</strong><br>${selectedVehicle.descricao}</p></div></div><div class="mt-6 text-center"><a href="https://wa.me/${WHATSAPP_NUMBER}?text=Olá%20BRENO,%20vim%20pelo%20site%20JM%20Veículos%20e%20tenho%20interesse%20no%20${selectedVehicle.nome}!" target="_blank" class="whatsapp-btn">WhatsApp: (67) 9949-5572 - BRENO</a></div></div></div>`;
@@ -300,27 +330,4 @@
         app.innerHTML = html;
         
         if (showVehicleModal) {
-            const uploadInput = document.getElementById('vehicleImages');
-            if (uploadInput) {
-                uploadInput.onchange = function(e) {
-                    Array.from(e.target.files).forEach(file => {
-                        const reader = new FileReader();
-                        reader.onload = ev => {
-                            const previewDiv = document.getElementById('imagePreview');
-                            const div = document.createElement('div');
-                            div.className = 'gallery-item';
-                            div.innerHTML = `<img src="${ev.target.result}" class="preview-image"><div class="remove-image-btn" onclick="this.parentElement.remove()">×</div>`;
-                            previewDiv.appendChild(div);
-                        };
-                        reader.readAsDataURL(file);
-                    });
-                };
-            }
-        }
-    }
-    
-    // Inicializar
-    carregarVeiculos();
-</script>
-</body>
-</html>
+           
