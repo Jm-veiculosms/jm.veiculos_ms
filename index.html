@@ -121,7 +121,7 @@
             
             console.log('🔍 Tentando carregar:', jsonPath);
             
-            const response = await fetch(jsonPath);
+            const response = await fetch('./veiculos.json');
             
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status} - arquivo não encontrado: ${jsonPath}`);
