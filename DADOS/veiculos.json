@@ -49,5 +49,24 @@
       "https://placehold.co/800x500/1e293b/94a3b8?text=Factor+150"
     ],
     "descricao": "Moto revisada, documentação em dia."
+  },
+  {
+    "id": 22,
+    "nome": "CG Titan 150 KS",
+    "marca": "Honda",
+    "ano": 2008,
+    "preco": 8000,
+    "km": 80000,
+    "combustivel": "Gasolina",
+    "cambio": "Manual",
+    "cor": "Vermelha",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/NcxWs68.jpg",
+      "https://i.imgur.com/kOgifj7.jpg",
+      "https://i.imgur.com/PkFUn7Z.jpg",
+      "https://i.imgur.com/mUwPPFG.jpg"
+    ],
+    "descricao": "Honda CG Titan 150 KS – 2008/2008, 80.000 km, cor Vermelha, motor 150cc Gasolina, câmbio manual. Moto robusta, econômica e de excelente manutenção. Valor: R$ 8.000,00."
   }
 ]
