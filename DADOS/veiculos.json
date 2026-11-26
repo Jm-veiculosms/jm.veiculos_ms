@@ -9,7 +9,7 @@
     "combustivel": "Flex",
     "cambio": "Automática",
     "cor": "Prata",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/aVwwThl.jpg",
       "https://i.imgur.com/XDhEBEH.jpg",
@@ -51,7 +51,7 @@
     "combustivel": "Flex",
     "cambio": "Automático",
     "cor": "Branca",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/wL2cqpM.jpg",
       "https://i.imgur.com/agzXfNt.jpg",
@@ -93,7 +93,7 @@
     "combustivel": "Flex",
     "cambio": "Automático",
     "cor": "Preto",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/1UBLUtE.jpg",
       "https://i.imgur.com/ev9dbUJ.jpg",
@@ -135,7 +135,7 @@
     "combustivel": "Diesel",
     "cambio": "Automático",
     "cor": "Preta",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/ux5AzQ2.jpg",
       "https://i.imgur.com/XuQujbm.jpg",
@@ -177,7 +177,7 @@
     "combustivel": "Gasolina",
     "cambio": "Manual",
     "cor": "Azul",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/xcQgLCP.jpg",
       "https://i.imgur.com/FFAaxKX.jpg",
@@ -232,7 +232,7 @@
     "nome": "208 Like 1.0",
     "marca": "Peugeot",
     "ano": 2024,
-    "preco": 65000,
+    "preco": 60000,
     "km": 45000,
     "combustivel": "Flex",
     "cambio": "Manual",
@@ -363,7 +363,7 @@
     "combustivel": "Flex",
     "cambio": "Manual",
     "cor": "Branca",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/5IJ0Hy1.jpg",
       "https://i.imgur.com/k7ror8Q.jpg",
@@ -386,7 +386,7 @@
     "combustivel": "Flex",
     "cambio": "Manual",
     "cor": "Cinza",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/327l0wz.jpg",
       "https://i.imgur.com/QYllvZx.jpg",
@@ -405,7 +405,7 @@
     "combustivel": "Gasolina",
     "cambio": "Manual",
     "cor": "Branca",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/z7NBDIr.jpg",
       "https://i.imgur.com/1ZInvlc.jpg",
@@ -426,7 +426,7 @@
     "combustivel": "Flex",
     "cambio": "Manual",
     "cor": "Branca",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/wetrWJm.jpg",
       "https://i.imgur.com/MDDNIU0.jpg",
@@ -446,7 +446,7 @@
     "combustivel": "Gasolina",
     "cambio": "Manual",
     "cor": "Vermelha",
-    "status": "disponível",
+    "status": "vendido",
     "imagens": [
       "https://i.imgur.com/NcxWs68.jpg",
       "https://i.imgur.com/kOgifj7.jpg",
@@ -454,5 +454,48 @@
       "https://i.imgur.com/mUwPPFG.jpg"
     ],
     "descricao": "Moto robusta, econômica e de excelente manutenção."
+  },
+  {
+    "id": 23,
+    "nome": "Astra Hatch Advantage 2.0 4P",
+    "marca": "Chevrolet",
+    "ano": 2010,
+    "preco": 0,
+    "km": 144000,
+    "combustivel": "Flex",
+    "cambio": "Manual",
+    "cor": "Cinza",
+    "status": "vendido",
+    "imagens": [
+      "https://i.imgur.com/dPwgDLp.jpg",
+      "https://i.imgur.com/yHGdQ4S.jpg",
+      "https://i.imgur.com/Po3yxdF.jpg",
+      "https://i.imgur.com/kOttsCt.jpg",
+      "https://i.imgur.com/qZWUXl6.jpg",
+      "https://i.imgur.com/iwR4pfd.jpg"
+    ],
+    "descricao": "Opcionais: Airbags frontais e laterais, Alarme, Apoio de braço central, Ar-condicionado + ar digital, Ar quente, Desembaçador traseiro, Direção hidráulica, Faróis de neblina, Freios ABS, Limpador e desembaçador traseiro, Rodas, Sensor de estacionamento, Travas e vidros elétricos, Volante com regulagem e multifuncional."
+  },
+  {
+    "id": 24,
+    "nome": "Corolla XEi 2.0 16V",
+    "marca": "Toyota",
+    "ano": 2014,
+    "preco": 0,
+    "km": 97000,
+    "combustivel": "Flex",
+    "cambio": "Automático",
+    "cor": "Prata",
+    "status": "vendido",
+    "imagens": [
+      "https://i.imgur.com/6MVV4KR.jpg",
+      "https://i.imgur.com/FpHLqfe.jpg",
+      "https://i.imgur.com/DOqWlvm.jpg",
+      "https://i.imgur.com/ZPSl1NI.jpg",
+      "https://i.imgur.com/FxTaPbT.jpg",
+      "https://i.imgur.com/IQiyysU.jpg",
+      "https://i.imgur.com/fUzB7KI.jpg",
+      "https://i.imgur.com/M6lSdzZ.jpg"
+    ],
+    "descricao": "Opcionais: Banco de couro, Ar digital, Câmbio borboleta, Câmera de ré + sensor de estacionamento, Central multimídia, Piloto automático, Controle de estabilidade ESP, Airbags frontais e laterais, Retrovisores elétricos com rebatimento, Acendimento automático dos faróis, Faróis de neblina, Rodas, Computador de bordo, Isofix, Volante multifuncional com regulagem, Vidros e travas elétricas."
   }
-]
