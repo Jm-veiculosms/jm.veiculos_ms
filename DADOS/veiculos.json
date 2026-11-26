@@ -1,7 +1,6 @@
 [
   {
-    "id": 1,
-    "categoria": "carro",
+     "id": 1,
     "nome": "Spin LTZ 1.8",
     "marca": "Chevrolet",
     "ano": 2013,
@@ -23,7 +22,6 @@
   },
   {
     "id": 2,
-    "categoria": "carro",
     "nome": "Hilux SRV Top 3.0",
     "marca": "Toyota",
     "ano": 2014,
@@ -45,7 +43,6 @@
   },
   {
     "id": 3,
-    "categoria": "carro",
     "nome": "Corolla GLI 2.0",
     "marca": "Toyota",
     "ano": 2021,
@@ -67,7 +64,6 @@
   },
   {
     "id": 4,
-    "categoria": "carro",
     "nome": "Onix LT 1.0",
     "marca": "Chevrolet",
     "ano": 2024,
@@ -85,11 +81,9 @@
       "https://i.imgur.com/d1RksnX.jpg",
       "https://i.imgur.com/EXxDzN3.jpg"
     ],
-    "descricao": "Chevrolet Onix LT 1.0. Econômico, completo, com ar condicionado, direção elétrica, vidros elétricos, multimídia com CarPlay e rodas de liga leve. Ideal para quem busca economia e tecnologia."
-  },
+    "descricao": "Chevrolet Onix LT 1.0. Econômico, completo, com ar condicionado, direção elétrica, vidros elétricos, multimídia com CarPlay e rodas de liga leve. Ideal para quem busca economia e tecnologia."  },
   {
     "id": 5,
-    "categoria": "carro",
     "nome": "Civic EXR 2.0",
     "marca": "Honda",
     "ano": 2014,
@@ -107,11 +101,9 @@
       "https://i.imgur.com/Tn126WI.jpg",
       "https://i.imgur.com/YDgnVp0.jpg"
     ],
-    "descricao": "Honda Civic EXR 2.0. Bancos de couro, ar condicionado, multimídia, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Design esportivo, desempenho e confiabilidade Honda."
-  },
-  {
+    "descricao": "Honda Civic EXR 2.0. Bancos de couro, ar condicionado, multimídia, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Design esportivo, desempenho e confiabilidade Honda."  },
+{
     "id": 6,
-    "categoria": "carro",
     "nome": "Cruze LTZ 1.4 Turbo",
     "marca": "Chevrolet",
     "ano": 2019,
@@ -129,11 +121,9 @@
       "https://i.imgur.com/Ixu0yaH.jpg",
       "https://i.imgur.com/DwpfBNG.jpg"
     ],
-    "descricao": "Chevrolet Cruze LTZ 1.4 Turbo. Bancos de couro, ar condicionado, multimídia com CarPlay, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Desempenho, economia e muito conforto."
-  },
-  {
+    "descricao": "Chevrolet Cruze LTZ 1.4 Turbo. Bancos de couro, ar condicionado, multimídia com CarPlay, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Desempenho, economia e muito conforto."},
+   {
     "id": 7,
-    "categoria": "carro",
     "nome": "Trailblazer Premier 2.8",
     "marca": "Chevrolet",
     "ano": 2022,
@@ -151,11 +141,9 @@
       "https://i.imgur.com/8G9NoP4.jpg",
       "https://i.imgur.com/bi18qQQ.jpg"
     ],
-    "descricao": "Chevrolet Trailblazer Premier 2.8. Bancos de couro, ar condicionado, multimídia, InstarLink, câmbio automático, tração 4x4, rodas de liga leve, sensor de estacionamento e câmera de ré. Robustez, conforto e tecnologia para toda a família."
-  },
+    "descricao": "Chevrolet Trailblazer Premier 2.8. Bancos de couro, ar condicionado, multimídia, InstarLink, câmbio automático, tração 4x4, rodas de liga leve, sensor de estacionamento e câmera de ré. Robustez, conforto e tecnologia para toda a família."},
   {
     "id": 8,
-    "categoria": "carro",
     "nome": "Kwid Zen 1.0",
     "marca": "Renault",
     "ano": 2024,
@@ -173,11 +161,9 @@
       "https://i.imgur.com/ERnkvtD.jpg",
       "https://i.imgur.com/UmHaORp.jpg"
     ],
-    "descricao": "Renault Kwid Zen 1.0. Econômico, compacto e ideal para a cidade. Completo com ar condicionado, direção elétrica, vidros elétricos, multimídia. Perfeito para quem busca economia e praticidade."
-  },
+    "descricao": "Renault Kwid Zen 1.0. Econômico, compacto e ideal para a cidade. Completo com ar condicionado, direção elétrica, vidros elétricos, multimídia. Perfeito para quem busca economia e praticidade."},
   {
     "id": 9,
-    "categoria": "moto",
     "nome": "Yamaha XTZ 250",
     "marca": "Yamaha",
     "ano": 2015,
@@ -192,11 +178,9 @@
       "https://i.imgur.com/FFAaxKX.jpg",
       "https://i.imgur.com/OC6F2qU.jpg"
     ],
-    "descricao": "Yamaha XTZ 250. Moto robusta e confiável, ideal para estradas de terra e uso misto. Econômica, peças fáceis e excelente revenda. Perfeita para quem busca aventura e durabilidade."
-  },
+    "descricao": "Yamaha XTZ 250. Moto robusta e confiável, ideal para estradas de terra e uso misto. Econômica, peças fáceis e excelente revenda. Perfeita para quem busca aventura e durabilidade."},
   {
     "id": 10,
-    "categoria": "carro",
     "nome": "208 Allure 1.6",
     "marca": "Peugeot",
     "ano": 2022,
@@ -214,11 +198,9 @@
       "https://i.imgur.com/KbQHWdZ.jpg",
       "https://i.imgur.com/VG9nfOL.jpg"
     ],
-    "descricao": "Peugeot 208 Allure 1.6. Bancos de couro, ar condicionado, multimídia com CarPlay, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Design moderno, tecnologia e muito estilo."
-  },
+    "descricao": "Peugeot 208 Allure 1.6. Bancos de couro, ar condicionado, multimídia com CarPlay, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Design moderno, tecnologia e muito estilo."},
   {
     "id": 11,
-    "categoria": "carro",
     "nome": "Mobi Like 1.0",
     "marca": "Fiat",
     "ano": 2025,
@@ -236,11 +218,9 @@
       "https://i.imgur.com/Fhz10zg.jpg",
       "https://i.imgur.com/lGVMmN3.jpg"
     ],
-    "descricao": "Fiat Mobi Like 1.0. Econômico, compacto e ideal para a cidade. Completo com ar condicionado, direção elétrica, vidros elétricos, multimídia e rodas de liga leve. Perfeito para mobilidade urbana com baixo custo de manutenção."
-  },
-  {
+    "descricao": "Fiat Mobi Like 1.0. Econômico, compacto e ideal para a cidade. Completo com ar condicionado, direção elétrica, vidros elétricos, multimídia e rodas de liga leve. Perfeito para mobilidade urbana com baixo custo de manutenção."},
+   {
     "id": 12,
-    "categoria": "carro",
     "nome": "208 Like 1.0",
     "marca": "Peugeot",
     "ano": 2024,
@@ -258,11 +238,9 @@
       "https://i.imgur.com/PuWV0k0.jpg",
       "https://i.imgur.com/3XhYQrW.jpg"
     ],
-    "descricao": "Peugeot 208 Like 1.0. Econômico, compacto e cheio de estilo. Completo com ar condicionado, direção elétrica, vidros elétricos, multimídia com CarPlay e rodas de liga leve. Design moderno e baixo custo de manutenção."
-  },
+    "descricao": "Peugeot 208 Like 1.0. Econômico, compacto e cheio de estilo. Completo com ar condicionado, direção elétrica, vidros elétricos, multimídia com CarPlay e rodas de liga leve. Design moderno e baixo custo de manutenção."},
   {
     "id": 13,
-    "categoria": "carro",
     "nome": "Corolla GLI 1.8",
     "marca": "Toyota",
     "ano": 2017,
@@ -280,11 +258,9 @@
       "https://i.imgur.com/1lEd3jg.jpg",
       "https://i.imgur.com/oOLatjQ.jpg"
     ],
-    "descricao": "Toyota Corolla GLI 1.8. Bancos de couro, ar condicionado, multimídia, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Conforto, economia e excelente revenda."
-  },
+    "descricao": "Toyota Corolla GLI 1.8. Bancos de couro, ar condicionado, multimídia, câmbio automático, rodas de liga leve, sensor de estacionamento e câmera de ré. Conforto, economia e excelente revenda."},
   {
     "id": 14,
-    "categoria": "carro",
     "nome": "Corsa Hatch Maxx 1.4 4p.",
     "marca": "Chevrolet",
     "ano": 2012,
@@ -306,7 +282,6 @@
   },
   {
     "id": 15,
-    "categoria": "carro",
     "nome": "Strada Working 1.4 C.S.",
     "marca": "Fiat",
     "ano": 2013,
@@ -328,7 +303,6 @@
   },
   {
     "id": 16,
-    "categoria": "carro",
     "nome": "Kwid Zen 1.0 12v",
     "marca": "Renault",
     "ano": 2019,
@@ -350,7 +324,6 @@
   },
   {
     "id": 17,
-    "categoria": "carro",
     "nome": "Gol Comfortline 1.0 4p.",
     "marca": "Volkswagen",
     "ano": 2015,
@@ -372,7 +345,6 @@
   },
   {
     "id": 18,
-    "categoria": "carro",
     "nome": "EcoSport Freestyle 1.6 16v",
     "marca": "Ford",
     "ano": 2013,
@@ -396,7 +368,6 @@
   },
   {
     "id": 19,
-    "categoria": "moto",
     "nome": "Biz 125i EX",
     "marca": "Honda",
     "ano": 2012,
@@ -416,7 +387,6 @@
   },
   {
     "id": 20,
-    "categoria": "moto",
     "nome": "Biz 110i",
     "marca": "Honda",
     "ano": 2023,
@@ -438,7 +408,6 @@
   },
   {
     "id": 21,
-    "categoria": "carro",
     "nome": "Fox Trendline 1.6 4p.",
     "marca": "Volkswagen",
     "ano": 2015,
@@ -459,7 +428,6 @@
   },
   {
     "id": 22,
-    "categoria": "moto",
     "nome": "CG Titan 150 KS",
     "marca": "Honda",
     "ano": 2008,
