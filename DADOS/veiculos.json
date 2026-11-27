@@ -519,5 +519,228 @@
       "https://i.imgur.com/HbcMr7S.jpg"
     ],
     "descricao": "Opcionais: Tração 4x4, Banco de couro com ajuste elétrico, Ar digital, Central multimídia + GPS, Painel digital, Câmera de ré + sensores de estacionamento, Faróis em LED + luz diurna, Piloto automático, Câmbio borboleta, Chave presencial, Partida remota, Assistente de estacionamento, Controle de estabilidade e tração, Assistente de partida em rampa, Capota marítima + protetor de caçamba, Estribo, Monitoramento da pressão dos pneus, Retrovisores com rebatimento elétrico, Sensor de chuva."
+  },
+  {
+    "id": 26,
+    "nome": "Corolla GLi 1.8 16v",
+    "marca": "Toyota",
+    "ano": 2018,
+    "preco": 88900,
+    "km": 82000,
+    "combustivel": "Flex",
+    "cambio": "Automático",
+    "cor": "Preta",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/HvAsxpR.jpg",
+      "https://i.imgur.com/CE83xWI.jpg",
+      "https://i.imgur.com/6fBWImE.jpg",
+      "https://i.imgur.com/qCZaQs7.jpg"
+    ],
+    "descricao": "Opcionais: Acendimento Faróis Automático, Air Bag, Air Bags Laterais, Alarme, Apoio de Braço Central, Ar Condicionado, Ar Quente, Assistente de Estacionamento, Banco de Couro, Câmera de Ré, Central Multimídia, Computador de Bordo, Controle de Estabilidade ESP, Desembaçador Traseiro, Direção Hidráulica, Farol de Led, Freios ABS, Isofix, Limp. e Desemb. Traseiro, Painel Digital, Repetidor Seta Retrovisor, Retrovisor Elétrico, Retrovisor Rebatimento Elétrico, Rodas, Sensor de Estacionamento, Trava Elétrica, Vidro Elétrico, Volante com Regulagem, Volante Multifuncional."
+  },
+  {
+    "id": 27,
+    "nome": "Grand Siena 1.0",
+    "marca": "Fiat",
+    "ano": 2021,
+    "preco": 48000,
+    "km": 102000,
+    "combustivel": "Flex",
+    "cambio": "Manual",
+    "cor": "Branca",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/Vtijz0E.jpg",
+      "https://i.imgur.com/TsKTxV3.jpg",
+      "https://i.imgur.com/VmqjYMn.jpg",
+      "https://i.imgur.com/s7EJAiI.jpg",
+      "https://i.imgur.com/Sj7DqAp.jpg",
+      "https://i.imgur.com/ROhQuSJ.jpg"
+    ],
+    "descricao": "Opcionais: Ar-condicionado, Ar quente, Computador de bordo, Direção hidráulica, Freios ABS + Airbag, Retrovisores elétricos, Vidros e travas elétricas, Faróis de neblina, Desembaçador e limpador traseiro, Volante com regulagem, Alarme."
+  },
+  {
+    "id": 28,
+    "nome": "City Sedan LX 1.5 16v",
+    "marca": "Honda",
+    "ano": 2010,
+    "preco": 49900,
+    "km": 0,
+    "combustivel": "Flex",
+    "cambio": "Automático",
+    "cor": "Prata",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/m3Yt6ZT.jpg",
+      "https://i.imgur.com/Avpmi1C.jpg",
+      "https://i.imgur.com/zMmQbYZ.jpg",
+      "https://i.imgur.com/22upTta.jpg",
+      "https://i.imgur.com/snHbpyf.jpg",
+      "https://i.imgur.com/AJOHa0v.jpg"
+    ],
+    "descricao": "Opcionais: Air Bag, Air Bags Laterais, Alarme, Apoio de Braço Central, Ar Condicionado, Ar Quente, Computador de Bordo, Controle de Estabilidade ESP, Desembaçador Traseiro, Direção Hidráulica, Farol de Neblina, Freios ABS, Isofix, Piloto Automático, Repetidor Seta Retrovisor, Retrovisor Elétrico, Rodas, Trava Elétrica, Vidro Elétrico, Volante com Regulagem."
+  },
+  {
+    "id": 29,
+    "nome": "Ka Hatch SE 1.0 12v",
+    "marca": "Ford",
+    "ano": 2018,
+    "preco": 40900,
+    "km": 107000,
+    "combustivel": "Flex",
+    "cambio": "Manual",
+    "cor": "Branca",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/LluaGjA.jpg",
+      "https://i.imgur.com/ZLZDfEn.jpg",
+      "https://i.imgur.com/VeR7NCZ.jpg",
+      "https://i.imgur.com/Xcnjkit.jpg",
+      "https://i.imgur.com/WUM5QSB.jpg",
+      "https://i.imgur.com/A9LZuE5.jpg"
+    ],
+    "descricao": "Opcionais: Air Bag, Air Bags Laterais, Alarme, Ar Condicionado, Ar Quente, Computador de Bordo, Desembaçador Traseiro, Direção Elétrica, Freios ABS, Isofix, Limp. e Desemb. Traseiro, Limpador Traseiro, Vidro Elétrico, Volante com Regulagem, Volante Multifuncional."
+  },
+  {
+    "id": 30,
+    "nome": "C3 Hatch Tendance 1.5",
+    "marca": "Citroen",
+    "ano": 2013,
+    "preco": 38900,
+    "km": 130000,
+    "combustivel": "Flex",
+    "cambio": "Manual",
+    "cor": "Preta",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/N89Eotr.jpg",
+      "https://i.imgur.com/pcZwsSE.jpg",
+      "https://i.imgur.com/bwRDhYb.jpg",
+      "https://i.imgur.com/O9vcwnY.jpg",
+      "https://i.imgur.com/4INxjg7.jpg",
+      "https://i.imgur.com/2x1tOK3.jpg"
+    ],
+    "descricao": "Opcionais: Air Bag, Air Bags Laterais, Alarme, Apoio de Braço Central, Ar Condicionado, Ar Quente, Assistente de Estacionamento, Computador de Bordo, Desembaçador Traseiro, Direção Elétrica, Farol de Led, Farol de Neblina, Freios ABS, Limp. e Desemb. Traseiro, Luz Diurna, Repetidor Seta Retrovisor, Retrovisor Elétrico, Rodas, Sensor de Estacionamento, Trava Elétrica, Vidro Elétrico, Volante com Regulagem, Volante Multifuncional."
+  },
+  {
+    "id": 31,
+    "nome": "Kwid Zen 1.0 12v",
+    "marca": "Renault",
+    "ano": 2021,
+    "preco": 44000,
+    "km": 85000,
+    "combustivel": "Flex",
+    "cambio": "Manual",
+    "cor": "Branca",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/FtkDgUd.jpg",
+      "https://i.imgur.com/R3jKzbs.jpg",
+      "https://i.imgur.com/GMIXTrK.jpg",
+      "https://i.imgur.com/X05yBj0.jpg",
+      "https://i.imgur.com/kGXp1If.jpg"
+    ],
+    "descricao": "Opcionais: Air Bag, Air Bags Laterais, Ar Condicionado, Ar Quente, Computador de Bordo, Controle de Estabilidade ESP, Direção Elétrica, Freios ABS, Isofix, Limp. e Desemb. Traseiro, Trava Elétrica, Vidro Elétrico, Volante com Regulagem."
+  },
+  {
+    "id": 32,
+    "nome": "Etios Hatch XLS 1.5 16v",
+    "marca": "Toyota",
+    "ano": 2013,
+    "preco": 39900,
+    "km": 0,
+    "combustivel": "Flex",
+    "cambio": "Manual",
+    "cor": "Preta",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/T2R2YS5.jpg",
+      "https://i.imgur.com/kpvOSBA.jpg",
+      "https://i.imgur.com/YSvHMmX.jpg",
+      "https://i.imgur.com/TPfB3Ez.jpg",
+      "https://i.imgur.com/AwC1ZH9.jpg",
+      "https://i.imgur.com/8vWqde5.jpg"
+    ],
+    "descricao": "Opcionais: Air Bag, Alarme, Ar Condicionado, Ar Quente, Câmera de Ré, Central Multimídia, Computador de Bordo, Direção Hidráulica, Farol de Neblina, Freios ABS, Limp. e Desemb. Traseiro, Retrovisor Elétrico, Rodas, Trava Elétrica, Vidro Elétrico, Volante com Regulagem."
+  },
+  {
+    "id": 33,
+    "nome": "Biz 110i",
+    "marca": "Honda",
+    "ano": 2023,
+    "preco": 0,
+    "km": 8000,
+    "combustivel": "Gasolina",
+    "cambio": "Manual",
+    "cor": "Branca",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/oc2Kw7Z.jpg",
+      "https://i.imgur.com/jfOWvoS.jpg",
+      "https://i.imgur.com/L8t4V15.jpg",
+      "https://i.imgur.com/Va9PGBE.jpg"
+    ],
+    "descricao": "Opcionais: Baú, Freios ABS, Injeção Eletrônica, Partida Elétrica, Protetor de Carenagem."
+  },
+  {
+    "id": 34,
+    "nome": "Biz 100 ES",
+    "marca": "Honda",
+    "ano": 2014,
+    "preco": 9900,
+    "km": 36000,
+    "combustivel": "Gasolina",
+    "cambio": "Manual",
+    "cor": "Preta",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/hOyS0dV.jpg",
+      "https://i.imgur.com/48qRiZp.jpg",
+      "https://i.imgur.com/KN8FE8I.jpg"
+    ],
+    "descricao": "Opcionais: Freios ABS, Injeção Eletrônica, Partida Elétrica."
+  },
+  {
+    "id": 35,
+    "nome": "Kwid Zen 1.0 12v",
+    "marca": "Renault",
+    "ano": 2018,
+    "preco": 38900,
+    "km": 0,
+    "combustivel": "Flex",
+    "cambio": "Manual",
+    "cor": "Branca",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/tr0fryK.jpg",
+      "https://i.imgur.com/pr59hZW.jpg",
+      "https://i.imgur.com/qwqwSr0.jpg",
+      "https://i.imgur.com/yL94OVb.jpg",
+      "https://i.imgur.com/hvLNDBW.jpg",
+      "https://i.imgur.com/dgzoJHT.jpg"
+    ],
+    "descricao": "Opcionais: Air Bag, Alarme, Ar Condicionado, Ar Quente, Central Multimídia, Computador de Bordo, Direção Elétrica, Freios ABS, Isofix, Limp. e Desemb. Traseiro, Trava Elétrica, Vidro Elétrico, Volante com Regulagem."
+  },
+    {
+    "id": 36,
+    "nome": "Hilux SW4 SRX D4-D 2.8TDi 16v 4x4",
+    "marca": "Toyota",
+    "ano": 2021,
+    "preco": 250000,
+    "km": 134000,
+    "combustivel": "Diesel",
+    "cambio": "Automático",
+    "cor": "Preta",
+    "status": "disponível",
+    "imagens": [
+      "https://i.imgur.com/xMXIoqL.jpg",
+      "https://i.imgur.com/D2Vv7Yx.jpg",
+      "https://i.imgur.com/aK8HfyN.jpg",
+      "https://i.imgur.com/IB8M0M1.jpg",
+      "https://i.imgur.com/dDJFx6q.jpg",
+      "https://i.imgur.com/CMWHyNP.jpg"
+    ],
+    "descricao": "Opcionais: 7 ou 8 Lugares, Abertura Automática Porta Malas, Acendimento Faróis Automático, Air Bag, Air Bags Laterais, Alarme, Apoio de Braço Central, Ar Condicionado, Ar Digital, Ar Quente, Assistente de Estacionamento, Assistente de Partida em Rampa, Banco Ajuste Elétrico, Banco de Couro, Câmbio Borboleta, Câmera de Ré, Central Multimídia, Chave Presencial, Computador de Bordo, Controle de Estabilidade ESP, Controle de Tração, Direção Hidráulica, Estribo, Farol de Led, Farol de Neblina, Freios ABS, Isofix, Limp. e Desemb. Traseiro, Luz Diurna, Monitoramento da Pressão dos Pneus, Navegador GPS, Painel Digital, Piloto Automático, Repetidor Seta Retrovisor, Retrovisor Elétrico, Retrovisor Rebatimento Elétrico, Rodas, Sensor de Chuva Parabrisa, Sensor de Estacionamento, Sensor de Ponto Cego, Tração 4X4, Trava Elétrica, Vidro Elétrico, Volante com Regulagem, Volante Multifuncional."
   }
 ]
