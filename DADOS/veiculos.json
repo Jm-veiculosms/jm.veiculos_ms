@@ -498,5 +498,26 @@
       "https://i.imgur.com/M6lSdzZ.jpg"
     ],
     "descricao": "Opcionais: Banco de couro, Ar digital, Câmbio borboleta, Câmera de ré + sensor de estacionamento, Central multimídia, Piloto automático, Controle de estabilidade ESP, Airbags frontais e laterais, Retrovisores elétricos com rebatimento, Acendimento automático dos faróis, Faróis de neblina, Rodas, Computador de bordo, Isofix, Volante multifuncional com regulagem, Vidros e travas elétricas."
+  },
+  {
+    "id": 25,
+    "nome": "Toro Ranch 2.0 Turbo Diesel 4x4",
+    "marca": "Fiat",
+    "ano": 2018,
+    "preco": 0,
+    "km": 130000,
+    "combustivel": "Diesel",
+    "cambio": "Automático",
+    "cor": "Preta",
+    "status": "vendido",
+    "imagens": [
+      "https://i.imgur.com/kK3GqLI.jpg",
+      "https://i.imgur.com/IMAH7Bi.jpg",
+      "https://i.imgur.com/IhLWsuy.jpg",
+      "https://i.imgur.com/Nn2FkIV.jpg",
+      "https://i.imgur.com/CsMjm5f.jpg",
+      "https://i.imgur.com/HbcMr7S.jpg"
+    ],
+    "descricao": "Opcionais: Tração 4x4, Banco de couro com ajuste elétrico, Ar digital, Central multimídia + GPS, Painel digital, Câmera de ré + sensores de estacionamento, Faróis em LED + luz diurna, Piloto automático, Câmbio borboleta, Chave presencial, Partida remota, Assistente de estacionamento, Controle de estabilidade e tração, Assistente de partida em rampa, Capota marítima + protetor de caçamba, Estribo, Monitoramento da pressão dos pneus, Retrovisores com rebatimento elétrico, Sensor de chuva."
   }
 ]
